@@ -1,4 +1,4 @@
-````carousel
+
 # 📝 Abstractive Text Summarization using BART & Encoder-Decoder Models
 ## Presentation Overview
 
@@ -180,4 +180,4 @@ model = AutoModelForSeq2SeqLM.from_pretrained("facebook/bart-large-cnn")
 ### Step 4: Deploy
 - Deploy the Python API backend to Render / Railway / AWS.
 - Deploy the Web interface to Vercel / Netlify.
-````
+
