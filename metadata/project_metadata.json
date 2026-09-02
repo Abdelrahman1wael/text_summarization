@@ -1,0 +1,21 @@
+{
+    "export_time": "2026-08-12 17:33:09.977377",
+    "project": "Text Summarization using Pre-trained Encoder-Decoder Models",
+    "dataset": "CNN/DailyMail News Summarization",
+    "MODEL_NAME": "facebook/bart-large-cnn",
+    "MAX_INPUT_TOKENS": "1024",
+    "MAX_SUMMARY_TOKENS": "128",
+    "MIN_SUMMARY_TOKENS": "30",
+    "N_EVAL": "50",
+    "BATCH_SIZE": "2",
+    "SEED": "42",
+    "rouge_scores": {
+        "rouge1": 0.4464340898469795,
+        "rouge2": 0.21116650574768475,
+        "rougeL": 0.30645290006155224,
+        "rougeLsum": 0.30723464280574175
+    },
+    "train_df_shape": "(287112, 2)",
+    "val_df_shape": "(13368, 2)",
+    "test_df_shape": "(11490, 2)"
+}

@@ -1,0 +1,10 @@
+transformers
+evaluate
+rouge_score
+sentencepiece
+accelerate
+pandas
+torch
+numpy
+tqdm
+kagglehub
